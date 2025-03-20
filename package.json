@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "@types/ajv": "^0.0.5",
+    "@types/json-schema": "^7.0.15",
+    "ajv": "^8.17.1",
+    "json-schema": "^0.4.0",
+    "typescript": "^5.8.2",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10"
+  }
+}

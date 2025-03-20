@@ -1,0 +1,14 @@
+# THIS IS JUST EXAMPLE
+tools:
+  - name: php-stan
+    command: ./vendor/bin/phpstan analyse
+    args:
+      - --level
+      - max
+      - src
+  
+  - name: php-cs-fixer
+    command: docker compose run --rm api php-cs-fixer fix
+  
+  - name: phpunit
+    command: make tests-unit
