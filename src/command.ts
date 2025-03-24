@@ -7,7 +7,7 @@ export interface CliOutput {
     stderrBase64Encoded: string;
 }
 
-export const executeCommand = (command: string): CliOutput => {
+export const executeCommand = async (command: string): Promise<CliOutput> => {
     try {
         const stdout = execSync(command, {
             cwd: config.basePath,

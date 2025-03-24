@@ -5,14 +5,15 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.7.0",
-    "@types/ajv": "^0.0.5",
-    "@types/json-schema": "^7.0.15",
-    "ajv": "^8.17.1",
     "json-schema": "^0.4.0",
-    "typescript": "^5.8.2",
-    "yaml": "^2.7.0"
+    "yaml": "^2.7.0",
+    "z-schema": "^6.0.2"
   },
   "devDependencies": {
-    "@types/node": "^22.13.10"
+    "@types/json-schema": "^7.0.15",
+    "@types/node": "^22.13.10",
+    "@types/z-schema": "^3.16.32",
+    "typescript": "^5.8.2",
+    "tsx": "^4.7.1"
   }
 }
